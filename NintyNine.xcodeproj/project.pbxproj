@@ -19,7 +19,7 @@
 		188F621529114652003D75FB /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F620C29114652003D75FB /* SelectLanguageView.swift */; };
 		188F621629114652003D75FB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F620D29114652003D75FB /* SignUpView.swift */; };
 		188F621729114652003D75FB /* DownloadLanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F620E29114652003D75FB /* DownloadLanguagesView.swift */; };
-		188F6219291146F4003D75FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188F6218291146F4003D75FB /* Assets.xcassets */; };
+		18E7759F29115696000C58AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7759E29115696000C58AE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,7 @@
 		188F620C29114652003D75FB /* SelectLanguageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
 		188F620D29114652003D75FB /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		188F620E29114652003D75FB /* DownloadLanguagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadLanguagesView.swift; sourceTree = "<group>"; };
-		188F6218291146F4003D75FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/99App/99App/99App/Assets.xcassets; sourceTree = "<group>"; };
+		18E7759E29115696000C58AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 				188F620929114652003D75FB /* Views */,
 				188F61F529114621003D75FB /* NintyNineApp.swift */,
 				188F61F729114621003D75FB /* ContentView.swift */,
-				188F6218291146F4003D75FB /* Assets.xcassets */,
+				18E7759E29115696000C58AE /* Assets.xcassets */,
 				188F61FB29114623003D75FB /* Preview Content */,
 			);
 			path = NintyNine;
@@ -176,8 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E7759F29115696000C58AE /* Assets.xcassets in Resources */,
 				188F61FD29114623003D75FB /* Preview Assets.xcassets in Resources */,
-				188F6219291146F4003D75FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
