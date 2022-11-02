@@ -21,6 +21,9 @@ extension Color {
     static var ThemeRed: Color {
         return Color.init(hex: "#BC433D")
     }
+    static var ThemeBlackGrey: Color {
+        return Color.init(hex: "#0F0F0F")
+    }
     
     init(hex: String) {
         let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)

@@ -20,6 +20,13 @@
 		188F621629114652003D75FB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F620D29114652003D75FB /* SignUpView.swift */; };
 		188F621729114652003D75FB /* DownloadLanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F620E29114652003D75FB /* DownloadLanguagesView.swift */; };
 		18E7759F29115696000C58AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E7759E29115696000C58AE /* Assets.xcassets */; };
+		18E775A12912BC24000C58AE /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775A02912BC24000C58AE /* HelpView.swift */; };
+		18E775A32912FBDA000C58AE /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775A22912FBD9000C58AE /* TermsOfServiceView.swift */; };
+		18E775A52912FCA0000C58AE /* PrivacyPolicyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775A42912FCA0000C58AE /* PrivacyPolicyView.swift */; };
+		18E775A72912FD23000C58AE /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775A62912FD23000C58AE /* EditProfile.swift */; };
+		18E775A929130B97000C58AE /* MyAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775A829130B97000C58AE /* MyAccountView.swift */; };
+		18E775AB2913136F000C58AE /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775AA2913136F000C58AE /* ContactsView.swift */; };
+		18E775AD29131599000C58AE /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E775AC29131599000C58AE /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +44,13 @@
 		188F620D29114652003D75FB /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		188F620E29114652003D75FB /* DownloadLanguagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadLanguagesView.swift; sourceTree = "<group>"; };
 		18E7759E29115696000C58AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E775A02912BC24000C58AE /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		18E775A22912FBD9000C58AE /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		18E775A42912FCA0000C58AE /* PrivacyPolicyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyView.swift; sourceTree = "<group>"; };
+		18E775A62912FD23000C58AE /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		18E775A829130B97000C58AE /* MyAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountView.swift; sourceTree = "<group>"; };
+		18E775AA2913136F000C58AE /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		18E775AC29131599000C58AE /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +128,13 @@
 				188F620C29114652003D75FB /* SelectLanguageView.swift */,
 				188F620D29114652003D75FB /* SignUpView.swift */,
 				188F620E29114652003D75FB /* DownloadLanguagesView.swift */,
+				18E775A02912BC24000C58AE /* HelpView.swift */,
+				18E775A22912FBD9000C58AE /* TermsOfServiceView.swift */,
+				18E775A42912FCA0000C58AE /* PrivacyPolicyView.swift */,
+				18E775A62912FD23000C58AE /* EditProfile.swift */,
+				18E775A829130B97000C58AE /* MyAccountView.swift */,
+				18E775AA2913136F000C58AE /* ContactsView.swift */,
+				18E775AC29131599000C58AE /* TabbarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,15 +209,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E775AD29131599000C58AE /* TabbarView.swift in Sources */,
 				188F621129114652003D75FB /* Constants.swift in Sources */,
+				18E775A52912FCA0000C58AE /* PrivacyPolicyView.swift in Sources */,
+				18E775A12912BC24000C58AE /* HelpView.swift in Sources */,
 				188F621529114652003D75FB /* SelectLanguageView.swift in Sources */,
 				188F621329114652003D75FB /* LoginView.swift in Sources */,
 				188F61F829114621003D75FB /* ContentView.swift in Sources */,
 				188F621229114652003D75FB /* AppText.swift in Sources */,
+				18E775A32912FBDA000C58AE /* TermsOfServiceView.swift in Sources */,
+				18E775A72912FD23000C58AE /* EditProfile.swift in Sources */,
 				188F621029114652003D75FB /* AppImage.swift in Sources */,
 				188F621729114652003D75FB /* DownloadLanguagesView.swift in Sources */,
 				188F621629114652003D75FB /* SignUpView.swift in Sources */,
+				18E775A929130B97000C58AE /* MyAccountView.swift in Sources */,
 				188F621429114652003D75FB /* VerficationView.swift in Sources */,
+				18E775AB2913136F000C58AE /* ContactsView.swift in Sources */,
 				188F61F629114621003D75FB /* NintyNineApp.swift in Sources */,
 				188F620F29114652003D75FB /* UIColor+Custom.swift in Sources */,
 			);
